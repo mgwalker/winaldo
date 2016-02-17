@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "build-style": "node-sass --include-path `node -e \"console.log(require('bourbon').includePaths.join(':'))\"` styles/main.scss ./style.css",
+    "build-html": "bundle exec jekyll build",
+    "build": "npm run build-style && npm run build-html",
+    "serve": "bundle exec jekyll serve"
+  },
+  "devDependencies": {
+    "bourbon": "^4.2.6",
+    "node-sass": "^3.4.2"
+  }
+}

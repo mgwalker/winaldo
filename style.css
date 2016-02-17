@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+/* line 4, /Users/mgwalker/Documents/Source/winaldo/styles/main.scss */
+body {
+  background: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif; }
+  /* line 13, /Users/mgwalker/Documents/Source/winaldo/styles/main.scss */
+  body a {
+    color: white; }
+    /* line 15, /Users/mgwalker/Documents/Source/winaldo/styles/main.scss */
+    body a:visited {
+      color: #999; }
+    /* line 18, /Users/mgwalker/Documents/Source/winaldo/styles/main.scss */
+    body a:hover {
+      color: #bbf; }
+  /* line 23, /Users/mgwalker/Documents/Source/winaldo/styles/main.scss */
+  body #sidebar {
+    background: #333;
+    width: 220px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 0 0 10px 0; }
+    /* line 30, /Users/mgwalker/Documents/Source/winaldo/styles/main.scss */
+    body #sidebar > a {
+      padding: 10px;
+      margin: 10px;
+      display: block;
+      border-radius: 10px;
+      color: white; }
+      /* line 37, /Users/mgwalker/Documents/Source/winaldo/styles/main.scss */
+      body #sidebar > a:hover {
+        background: rgba(255, 255, 0, 0.3); }
+  /* line 43, /Users/mgwalker/Documents/Source/winaldo/styles/main.scss */
+  body #content {
+    flex: 1 auto;
+    padding: 15px; }
+    /* line 48, /Users/mgwalker/Documents/Source/winaldo/styles/main.scss */
+    body #content .post-list h3 {
+      font-size: 2rem; }
+      /* line 50, /Users/mgwalker/Documents/Source/winaldo/styles/main.scss */
+      body #content .post-list h3 small {
+        font-size: 0.8rem; }
