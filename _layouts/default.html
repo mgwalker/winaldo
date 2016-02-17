@@ -2,10 +2,8 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>{{ page.title  }}</title>
-        <style type="text/css">
-            @import url(/style.css);
-        </style>
+        <title>{{ page.title  }} - {{ page.nest }}</title>
+        <link rel="stylesheet" type="text/css" href="{{ page.nest }}style.css" />
     </head>
     <body>
         <div id="sidebar">
