@@ -2,13 +2,13 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>{{ page.title  }} - {{ page.nest }}</title>
-        <link rel="stylesheet" type="text/css" href="{{ page.nest }}style.css" />
+        <title>{{ page.title  }}</title>
+        <link rel="stylesheet" type="text/css" href="/winaldo/style.css" />
     </head>
     <body>
         <div id="sidebar">
-            <a href="/">Home</a>
-            <a href="/about.html">About Winaldo</a>
+            <a href="{{ page.nest }}index.html">Home</a>
+            <a href="{{ page.nest }}about.html">About Winaldo</a>
         </div>
         <div id="content">
             {{ content }}
